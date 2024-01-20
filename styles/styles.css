@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali:wght@300&display=swap');
 
 /* Reset some default styles */
-body, h1, h2, h3, ul, li {
+body, h1, h2, h3, ul, li, p {
     margin: 0;
     padding: 0;
 }
