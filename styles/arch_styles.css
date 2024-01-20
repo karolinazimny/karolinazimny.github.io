@@ -14,7 +14,6 @@
 .img-container-ux {
     overflow: hidden; /* Hide overflow */
     position: relative; /* For absolute positioning of images */
-    width: 500px;
 }
 
 .img-container-ux img {
