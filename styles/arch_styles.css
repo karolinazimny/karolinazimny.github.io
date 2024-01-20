@@ -8,6 +8,7 @@
     display: grid;
     gap: 30px; /* Adjust the gap between rows */
     height: 1800px;
+    width: 100%;
 }
 
 .img-container-ux {
@@ -17,14 +18,15 @@
 }
 
 .img-container-ux img {
-    width: 100%; /* Full width of the container */
-    height: 100%; /* Full height of the container */
+    width: 100%;
     object-fit: cover; /* Cover the container */
     position: relative; /* Absolute positioning for image */
     image-rendering: crisp-edges;
 }
 
 .img-container-ux img {
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s ease;
 }
 
@@ -33,7 +35,6 @@
 }
 
 .arch_subheader h3 {
-    /* Style your h3 title as needed */
     margin-bottom: 0.5em; /* Space between title and line */
 }
 

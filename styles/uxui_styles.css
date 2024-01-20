@@ -8,6 +8,7 @@
     display: grid;
     gap: 30px; /* Adjust the gap between rows */
     height: 1100px;
+    width: 100%;
 }
 
 .column-ux:first-child {
@@ -20,16 +21,13 @@
 
 .img-container-ux {
     overflow: hidden; /* Hide overflow */
-    position: relative; /* For absolute positioning of images */
-    width: 800px;
+    width: 100%;
 }
 
 .img-container-ux img {
-    width: 100%; /* Full width of the container */
-    height: 100%; /* Full height of the container */
+    width: 100%;
+    height: 100%;
     object-fit: cover; /* Cover the container */
-    position: relative; /* Absolute positioning for image */
-    image-rendering: crisp-edges;
 }
 
 .img-container-ux img {

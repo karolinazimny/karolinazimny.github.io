@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 main {
-    padding-right: 100px;
+    /* padding-right: 20px; */
 }
 
 .column {
@@ -123,7 +123,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 10px; /* Adjust the gap between columns */
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .home_main a {
@@ -144,4 +144,8 @@ main {
     header, nav, main {
         grid-column: 1;
     }
+}
+
+.gallery-main {
+    padding-right: 40px;
 }
