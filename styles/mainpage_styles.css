@@ -62,7 +62,7 @@
     .home_main {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 10px; /* Adjust the gap between columns */
+        gap: 40px; /* Adjust the gap between columns */
         width: 100%;
         padding-right: 40px;
         padding-left: 40px;
