@@ -91,7 +91,7 @@ main {
 }
 
 .gallery-main {
-    padding-right: 40px;
+    padding-right: 150px;
     padding-left: 40px;
 }
 
@@ -118,5 +118,10 @@ main {
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 40px;
+    }
+
+    .gallery-main {
+        padding-right: 40px;
+        padding-left: 40px;
     }
 }

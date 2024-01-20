@@ -2,9 +2,9 @@
 
 .about_main {
     display: grid;
-    grid-template-columns: 60% 40%;
-    gap: 10px; /* Adjust the gap between columns */
-    padding-right: 40px;
+    grid-template-columns: 65% 35%;
+    gap: 30px; /* Adjust the gap between columns */
+    padding-right: 150px;
     padding-left: 40px;
     width: 100%;
 }
@@ -17,7 +17,7 @@
 }
 
 .photo-column {
-    width: 80%;
+    width: 100%;
 }
 
 .photo-column img {
@@ -31,6 +31,8 @@
         grid-template-columns: 1fr;
         gap: 10px; /* Adjust the gap between columns */
         width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
     }
     .photo-column {
         width: 100%;

@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 10px; /* Adjust the gap between columns */
     width: 100%;
-    padding-right: 40px;
+    padding-right: 150px;
     padding-left: 40px;
 }
 
