@@ -2,8 +2,11 @@
 
 .about_main {
     display: grid;
-    grid-template-columns: 60% 30%;
-    gap: 30px; /* Adjust the gap between columns */
+    grid-template-columns: 60% 40%;
+    gap: 10px; /* Adjust the gap between columns */
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
 }
 
 .text_column {
@@ -11,5 +14,25 @@
     font-family: 'Mandali', sans-serif;
     font-weight: 300;
     font-size: larger;
-    padding-left: 60px;
+}
+
+.photo-column {
+    width: 80%;
+}
+
+.photo-column img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile view */
+    .about_main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px; /* Adjust the gap between columns */
+        width: 100%;
+    }
+    .photo-column {
+        width: 100%;
+    }
 }

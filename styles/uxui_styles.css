@@ -37,3 +37,12 @@
 .img-container-ux img:hover {
     transform: scale(1.1); /* Zoom in */
 }
+
+@media (max-width: 768px) {
+    /* Styles for mobile view */
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px; /* Adjust the gap between columns */
+    }
+}

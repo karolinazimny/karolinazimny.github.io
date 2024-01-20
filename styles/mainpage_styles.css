@@ -1,6 +1,45 @@
+.home_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Adjust the gap between columns */
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.home_main a {
+    display: inline-block; /* Allows styling dimensions */
+    border: none; /* Style as needed */
+    background: none; /* Style as needed */
+    text-decoration: none; /* Removes underline from links */
+    /* ... other styles ... */
+}
+
+.column {
+    text-align: center; /* Center content in each column */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the .image-container horizontally */
+    align-items: center; /* Center the .image-container vertically */
+}
+
+
+.column img {
+    width: 70%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-bottom: 10px;
+}
+
+.column p {
+    color: grey;
+    font-family: 'Mandali', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+}
+
 .image-container {
-    width: 600px; /* Square container */
-    height: 600px;
+    width: 100%;
+    /* height: 600px; */
     overflow: hidden; /* Hide overflow */
     position: relative; /* Relative positioning for container */
 }
@@ -15,4 +54,21 @@
 
 .image-container img:hover {
     transform: scale(1.1); /* Zoom in */
+}
+
+
+@media (max-width: 768px) {
+    /* Styles for mobile view */
+    .home_main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px; /* Adjust the gap between columns */
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .column img {
+        width: 100%; /* Adjust as needed */
+    }
 }
