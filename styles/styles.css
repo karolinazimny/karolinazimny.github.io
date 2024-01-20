@@ -19,7 +19,7 @@ h2, h3 {
 body {
     font-family: Arial, sans-serif;
     display: grid;
-    grid-template-columns: 200px 1fr; /* Adjust 200px to the width of your sidebar */
+    grid-template-columns: 150px 1fr; /* Adjust 200px to the width of your sidebar */
     gap: 20px; /* This adds space between your columns */
     margin-bottom: 100px;
 }
@@ -56,7 +56,7 @@ nav {
     text-align: left;
     padding-left: 60px;
     /* padding-top: 10px; */
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 nav ul {
@@ -134,6 +134,12 @@ main {
     /* ... other styles ... */
 }
 
+.gallery-main {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
 
 @media (max-width: 768px) {
     /* Styles for mobile view */
@@ -144,8 +150,4 @@ main {
     header, nav, main {
         grid-column: 1;
     }
-}
-
-.gallery-main {
-    padding-right: 40px;
 }

@@ -7,7 +7,7 @@
 .column-ux {
     display: grid;
     gap: 30px; /* Adjust the gap between rows */
-    height: 1100px;
+    /* height: 1100px; */
     width: 100%;
 }
 
