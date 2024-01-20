@@ -1,0 +1,36 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 30px; /* Adjust the gap between columns */
+}
+
+.column-ux {
+    display: grid;
+    gap: 30px; /* Adjust the gap between rows */
+    height: 1100px;
+}
+
+.column-ux:first-child {
+    grid-template-rows: 50% 50%; /* Rows in 45:55 ratio for the first column */
+}
+
+.column-ux:last-child {
+    grid-template-rows: 40% 60%; /* Rows in 35:65 ratio for the second column */
+}
+
+.img-container-ux {
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For absolute positioning of images */
+    width: 800px;
+}
+
+.img-container-ux img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the container */
+    position: relative; /* Absolute positioning for image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the positioning */
+    image-rendering: crisp-edges;
+}

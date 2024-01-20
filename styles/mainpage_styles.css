@@ -1,0 +1,16 @@
+.image-container {
+    width: 100%; /* Square container */
+    height: 600px;
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Relative positioning for container */
+}
+
+.image-container img {
+    width: auto; /* Auto width for maintaining aspect ratio */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the container */
+    position: absolute; /* Absolute positioning for image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the positioning */
+}

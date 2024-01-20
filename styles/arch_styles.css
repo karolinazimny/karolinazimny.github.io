@@ -1,0 +1,41 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+    gap: 30px; /* Adjust the gap between columns */
+}
+
+.column-ux {
+    display: grid;
+    gap: 30px; /* Adjust the gap between rows */
+    height: 1800px;
+}
+
+.img-container-ux {
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For absolute positioning of images */
+    width: 500px;
+}
+
+.img-container-ux img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the container */
+    position: relative; /* Absolute positioning for image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the positioning */
+    image-rendering: crisp-edges;
+}
+
+.arch_subheader h3 {
+    /* Style your h3 title as needed */
+    margin-bottom: 0.5em; /* Space between title and line */
+}
+
+.arch_subheader hr {
+    border: none;
+    height: 1px;
+    background-color: #595959; /* Color of the line */
+    margin: 0; /* Reset default margin */
+    margin-bottom: 2em;
+}
