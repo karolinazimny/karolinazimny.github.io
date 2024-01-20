@@ -44,3 +44,8 @@
     margin: 0; /* Reset default margin */
     margin-bottom: 2em;
 }
+
+.zoomed-in-image {
+    width: 100%;
+    height: 100%;
+}

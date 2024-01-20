@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karolina Zimny Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/arch_styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">KAROLINA ZIMNY</a></h1>
+        <h3>ARCHITECTURE</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img id="dynamicImage" src="" alt="Image" class="zoomed-in-image">
+        <script>
+            function getParameterByName(name, url = window.location.href) {
+                name = name.replace(/[\[\]]/g, '\\$&');
+                const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            window.onload = function() {
+                const imageName = getParameterByName('image');
+                if (imageName) {
+                    document.getElementById('dynamicImage').src = 'img/' + imageName;
+                }
+            };
+        </script>
+    </main>
+</body>
+</html>
