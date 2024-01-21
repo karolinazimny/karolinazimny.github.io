@@ -18,7 +18,9 @@
         <div class="nav-elem"><a href="about.html">ABOUT</a></div>
     </nav>
     <main class="gallery-main">
-        <img id="dynamicImage" src="" alt="Image" class="zoomed-in-image">
+        <div class="zoomed-in-container">
+            <img id="dynamicImage" src="" alt="Image" class="zoomed-in-image">
+        </div>
         <script>
             function getParameterByName(name, url = window.location.href) {
                 name = name.replace(/[\[\]]/g, '\\$&');

@@ -45,9 +45,16 @@
     margin-bottom: 2em;
 }
 
+.zoomed-in-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: top; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
 .zoomed-in-image {
-    width: 100%;
-    height: 100%;
+    height:70vh;
+    width: auto;
 }
 
 @media (max-width: 768px) {
