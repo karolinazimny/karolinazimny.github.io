@@ -6,6 +6,7 @@ p {
     font-weight: 300;
     font-size: large;
     max-width: 70vw;
+    min-width: 70vw;
 }
 
 
