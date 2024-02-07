@@ -18,6 +18,10 @@ p {
     /* max-width: 100%; */
 }
 
+.block_spacer {
+    padding: 20px;
+}
+
 .zoomed-in-image {
     /* max-height:70vh; */
     max-width: 70vw;
