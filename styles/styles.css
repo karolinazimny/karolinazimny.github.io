@@ -17,7 +17,7 @@ h2, h3 {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: grid;
     grid-template-columns: 150px 1fr; /* Adjust 200px to the width of your sidebar */
     gap: 20px; /* This adds space between your columns */

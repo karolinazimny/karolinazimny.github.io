@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 p {
     color: black;
-    font-family: 'Mandali', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: large;
     max-width: 70vw;
