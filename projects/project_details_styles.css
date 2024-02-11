@@ -16,7 +16,7 @@ p {
     justify-content: center;
     align-items: top;
     /* max-height: 100vh; Full viewport height */
-    /* max-width: 100%; */
+    /* max-width: 70vw; */
 }
 
 .block_spacer {
@@ -26,4 +26,16 @@ p {
 .zoomed-in-image {
     /* max-height:70vh; */
     max-width: 70vw;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.block_container hr {
+    border: none;
+    height: 1px;
+    background-color: #595959; /* Color of the line */
+    margin: 0; /* Reset default margin */
+    margin-bottom: 2em;
 }
