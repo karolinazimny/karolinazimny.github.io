@@ -28,10 +28,6 @@ p {
     max-width: 70vw;
 }
 
-.underlined {
-    text-decoration: underline;
-}
-
 .block_container hr {
     border: none;
     height: 1px;
